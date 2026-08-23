@@ -1,0 +1,14 @@
+#navbar .nav-logo,
+#navbar nav-logo {
+  width: auto;
+  height: 30px;
+  max-height: 30px;
+}
+
+@media (max-width: 767px) {
+  #navbar .nav-logo,
+  #navbar nav-logo {
+    height: 27px;
+    max-height: 27px;
+  }
+}
